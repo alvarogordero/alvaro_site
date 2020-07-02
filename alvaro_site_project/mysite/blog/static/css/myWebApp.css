@@ -1,0 +1,55 @@
+.backg{
+  background-image: url('pictures/Home_Background.jpg');
+  /* Full height */
+  height: 100%;
+
+  /* Center and scale the image nicely */
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-color: #7e7e7e;
+  text-align: left;
+
+  color: white;
+}
+
+
+.welcome_intro{
+  margin-top: 4%;
+
+  margin-left: auto;
+  margin-right: auto;
+
+}
+
+.invert{
+    -webkit-filter: invert(100%);
+    filter: invert(100%);
+}
+
+.centerstage{
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
+}
+
+.footer{
+  margin-bottom: 3%;
+  text-align: center;
+}
+
+
+/* Smaller than standard 960 (devices and browsers) */
+@media only screen and (max-width: 959px) {}
+
+/* Tablet Portrait size to standard 960 (devices and browsers) */
+@media only screen and (min-width: 768px) and (max-width: 959px) {}
+
+/* All Mobile Sizes (devices and browser) */
+@media only screen and (max-width: 767px) {}
+
+/* Mobile Landscape Size to Tablet Portrait (devices and browsers) */
+@media only screen and (min-width: 480px) and (max-width: 767px) {}
+
+/* Mobile Portrait Size to Mobile Landscape Size (devices and browsers) */
+@media only screen and (max-width: 479px) {}

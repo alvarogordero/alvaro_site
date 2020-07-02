@@ -1,0 +1,54 @@
+<div style="background-color: #7e7e7e;">
+{% extends 'blog/base.html' %}
+
+{% block content %}
+<div class="container jumbotron welcome_intro text-justify" style="margin-top: 5%; padding: 5%;">
+  <h1 style="font-weight: 600;">AG</h1>
+  <br>
+  <h3 style="font-weight: 400;">Who Is Alvaro Gordero?</h3>
+  <br>
+  <p>Alvaro Gordero, (born in <span style="font-weight: bold;">Spain</span>,
+     December, 16, 1991) is an architect, and entrepreneur.</p>
+  <p>Alvaro and his brother Gonzalo Gordero are <span style="font-weight: bold;">founders</span>
+     of <span style="font-weight: bold;">ITF</span>, a fitness club in Shanghai.</p>
+  <p>During their university years they co-founded several startups that didn't make it through.</p>
+  <p>Some of them were:</p>
+  <ul style="list-style-position: inside;">
+    <li>2012 - <span style="font-weight: bold;"><a href="{% url 'dislexia' %}" style="color: black; text-decoration: underline;"> DisLexia</a></span>. It was an e-learning app for kids.
+       It won a first prize in a national entrepreneurship contest.</li>
+    <li>2015 - <span style="font-weight: bold;">Underwater winery</span>.
+       It didn't get the investment to launch it.</li>
+    <li>2017 - <span style="font-weight: bold;"><a href="{% url 'mybike' %}" style="color: black; text-decoration: underline;">MyBike</a> </span>.
+       Just landed in Shanghai Gonzalo saw something beside their apartment. It was a small company
+      called Mobike, not very popular for that time (later Alvaro and Gonzalo rented Mobike's first office to expand ITF).
+      Gonzalo saw the potential and both started developing the product. They introduced
+       <span style="font-weight: bold;">the first bike-sharing without station in Europe</span>.
+      Finally their chinese competitors, Ofo and Mobike were growing so fast,
+       and the investors started losing the interest. </li>
+  </ul>
+  <br>
+  <p>In 2017 Alvaro and his brother Gonzalo founded <span style="font-weight: bold;"><a href="{% url 'itf' %}" style="color: black; text-decoration: underline;">ITF</a></span>.
+     ITF is working since 2017 and has created a huge community in the heart of
+  Yangpu district, Shanghai, the new technology center of China. Surrounded by some of the best Universities in China,
+   like <span style="font-weight: bold;">Fudan University or Tongji University</span>. ITF is not only a business
+  business but also a community that mixes people from all around the world, and help them to improve their lifes.</p>
+  <br>
+  <p><span style="font-style: italic;">Currently Alvaro is <span style="font-weight: bold;">working in new projects</span>
+     that will see the light soon.</span></p>
+
+</div>
+
+<div class="container welcome_intro jumbotron text-justify" style="text-align: center; padding: 5%;">
+  <h3 style="font-weight: 500;">EDUCATION</h3>
+  <ul style="list-style-position: inside;">
+    <li>Architect. University of Alicante. Spain.</li>
+    <li>Chinese Language. <span style="font-weight: bold;">Fudan University</span>. Shanghai, China.</li>
+    <li>Python. Self-taught.</li>
+    <li>Languages: Spanish, English and Chinese.</li>
+  </ul>
+
+</div>
+
+<br>
+{% endblock %}
+</div>
